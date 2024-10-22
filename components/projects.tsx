@@ -47,7 +47,7 @@ const Projects: React.FC = () => {
                 <div className="text-center mb-12">
                     <h2 className="text-4xl font-extrabold text-gray-800">Projects</h2>
                     <p className="mt-4 text-lg text-gray-600">
-                        Explore some of the projects I've worked on, showcasing my skills and passion for technology.
+                        Explore some of the projects I&apos;ve worked on, showcasing my skills and passion for technology.
                     </p>
                 </div>
                 {/* Projects Grid */}

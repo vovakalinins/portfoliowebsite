@@ -27,10 +27,10 @@ const AboutMe: React.FC = () => {
                     {/* Description */}
                     <div className="md:flex-1">
                         <p className="text-gray-700 mb-4">
-                            Hello! I'm Vladimir Kalinins, a Computer Science student at TMU with a keen interest in software development, data analysis, and problem-solving. I thrive in collaborative environments and enjoy tackling challenging projects that push the boundaries of technology.
+                            Hello! I&apos;m Vladimir Kalinins, a Computer Science student at TMU with a keen interest in software development, data analysis, and problem-solving. I thrive in collaborative environments and enjoy tackling challenging projects that push the boundaries of technology.
                         </p>
                         <p className="text-gray-700 mb-6">
-                            My journey in computer science has equipped me with a strong foundation in various programming languages and frameworks. I'm constantly seeking opportunities to learn and grow, whether it's through personal projects, internships, or contributing to open-source initiatives.
+                            My journey in computer science has equipped me with a strong foundation in various programming languages and frameworks. I&apos;m constantly seeking opportunities to learn and grow, whether it&apos;s through personal projects, internships, or contributing to open-source initiatives.
                         </p>
                         {/* Skills */}
                         <div>

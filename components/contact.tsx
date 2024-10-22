@@ -12,7 +12,7 @@ const ContactMe: React.FC = () => {
                 <div className="text-center mb-12">
                     <h2 className="text-4xl font-extrabold text-gray-800 dark:text-white">Contact Me</h2>
                     <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
-                        I'd love to hear from you! Whether you have a question or just want to say hi, feel free to reach out.
+                        I&apos;d love to hear from you! Whether you have a question or just want to say hi, feel free to reach out.
                     </p>
                 </div>
 
