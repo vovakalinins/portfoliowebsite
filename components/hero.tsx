@@ -2,16 +2,17 @@
 import React, { useState, useEffect, useRef, FormEvent, ChangeEvent } from 'react';
 
 const initialMessages: string[] = [
-    "Loading Vladimir's Portfolio...",
+    "Loading Vladimirs' Portfolio...",
     "Debugging the debugger...",
     "Unassigning pointers...",
     "Loading infinite loops...",
-    "Rewriting in Rust...",
+    "Rewriting in C++...",
     "Just Scroll Down Already...",
     "Casting null to undefined...",
     "Synthesizing algorithms...",
     "Spinning up virtual machines...",
     "Reducing technical debt...",
+    "Still Here?...",
 ];
 
 const Hero: React.FC = () => {

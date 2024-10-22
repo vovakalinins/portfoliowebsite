@@ -13,9 +13,9 @@ const Header: React.FC = () => {
 
     const navLinks = [
         { name: 'Home', path: '/' },
-        { name: 'About', path: '/about' },
-        { name: 'Projects', path: '/projects' },
-        { name: 'Contact', path: '/contact' },
+        // { name: 'About', path: '/about' },
+        // { name: 'Projects', path: '/projects' },
+        // { name: 'Contact', path: '/contact' },
     ];
 
     return (
@@ -25,7 +25,7 @@ const Header: React.FC = () => {
                     {/* Branding */}
                     <div className="flex-shrink-0 flex items-center text-2xl font-black text-black">
                         <Link href="/">
-                            &gt; Vladimir Kalinins
+                            &gt; Vladimirs Kalinins
                         </Link>
                     </div>
 

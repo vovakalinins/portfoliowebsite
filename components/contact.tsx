@@ -33,7 +33,7 @@ const ContactMe: React.FC = () => {
 
                     {/* LinkedIn */}
                     <a
-                        href="https://www.linkedin.com/in/vladimirkalinins" // Replace with your LinkedIn profile
+                        href="https://www.linkedin.com/in/vladimirs-kalinins-420a39233/" // Replace with your LinkedIn profile
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center space-x-4 bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-full max-w-md"

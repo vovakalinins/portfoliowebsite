@@ -1,7 +1,7 @@
 // components/AboutMe.tsx
 import React from 'react';
 import Image from 'next/image';
-import { FaReact, FaNodeJs, FaDatabase, FaPython, FaRust, FaJava } from 'react-icons/fa';
+import { FaReact, FaNodeJs, FaDatabase, FaPython, FaRust, FaJava, FaPlus } from 'react-icons/fa';
 
 const AboutMe: React.FC = () => {
     return (
@@ -59,6 +59,10 @@ const AboutMe: React.FC = () => {
                                 <div className="flex items-center space-x-2 bg-white p-3 rounded-lg shadow hover:shadow-md transition-shadow duration-300">
                                     <FaJava className="text-red-900 text-2xl" />
                                     <span className="text-gray-700 font-medium">Java</span>
+                                </div>
+                                <div className="flex items-center space-x-2 bg-white p-3 rounded-lg shadow hover:shadow-md transition-shadow duration-300">
+                                    <FaPlus className="text-black text-2xl" />
+                                    <span className="text-black font-medium">More!</span>
                                 </div>
                             </div>
                         </div>

@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
                         <Link href="/" className="hover:text-white transition-colors duration-300">
                             Home
                         </Link>
-                        <Link href="/about" className="hover:text-white transition-colors duration-300">
+                        {/* <Link href="/about" className="hover:text-white transition-colors duration-300">
                             About
                         </Link>
                         <Link href="/projects" className="hover:text-white transition-colors duration-300">
@@ -32,13 +32,13 @@ const Footer: React.FC = () => {
                         </Link>
                         <Link href="/contact" className="hover:text-white transition-colors duration-300">
                             Contact
-                        </Link>
+                        </Link> */}
                     </div>
 
                     {/* Social Media Icons */}
                     <div className="flex space-x-6 mb-6 md:mb-0">
                         <a
-                            href="https://www.linkedin.com/in/vladimirkalinins" // Replace with your LinkedIn profile
+                            href="https://www.linkedin.com/in/vladimirs-kalinins-420a39233/" // Replace with your LinkedIn profile
                             target="_blank"
                             rel="noopener noreferrer"
                             className="hover:text-blue-500 transition-colors duration-300"
@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
                             <FaLinkedin size={24} />
                         </a>
                         <a
-                            href="https://github.com/vladimirkalinins" // Replace with your GitHub profile
+                            href="https://github.com/vovakalinins" // Replace with your GitHub profile
                             target="_blank"
                             rel="noopener noreferrer"
                             className="hover:text-gray-400 transition-colors duration-300"
@@ -56,7 +56,7 @@ const Footer: React.FC = () => {
                             <FaGithub size={24} />
                         </a>
                         <a
-                            href="mailto:vladimirs.kalinins@example.com" // Replace with your email
+                            href="mailto:vladimirskalinins@outlook.com" // Replace with your email
                             className="hover:text-red-500 transition-colors duration-300"
                             aria-label="Email"
                         >

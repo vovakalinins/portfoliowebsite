@@ -90,11 +90,11 @@ const Projects: React.FC = () => {
                                             href={project.githubLink}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="flex items-center text-gray-800 hover:text-gray-900 transition-colors duration-300"
+                                            className="flex items-center text-blue-600 hover:text-blue-800 transition-colors duration-300"
                                             aria-label={`${project.title} GitHub Repository`}
                                         >
                                             <FaGithub className="mr-1" />
-                                            GitHub
+                                            View GitHub
                                         </a>
                                     )}
                                 </div>
